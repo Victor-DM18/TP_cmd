@@ -34,5 +34,10 @@ Exercice 4
 
 D:\TP_CMD>path > path_sauv.txt
 
+Exercice  5
 
+
+dans le fichier: Dos_Martires_TP2_chemin_relatif.bat
+
+EN partant du fait que le fichier se trouve dans le repertoire TP_CMD
 
