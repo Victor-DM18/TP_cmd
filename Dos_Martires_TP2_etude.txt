@@ -1,0 +1,38 @@
+TP2
+
+Exercice 1
+
+Creer l'arborescence:
+md D:\TP_CMD\r1 D:\TP_CMD\r1\ D:\TP_CMD\r1\r5 D:\TP_CMD\r2 D:\TP_CMD\r3 D:\TP_CMD\r4\r6 D:\TP_CMD\r4\r7 D:\TP_CMD\r4\r8
+type nul > D:\TP_CMD\r1\f1.txt
+type nul > D:\TP_CMD\r1\f2.txt
+type nul > D:\TP_CMD\r4\r8\f3.txt
+
+
+
+Supprimer l'arborescencs:
+rd /s D:\TP_CMD (supprime le répertoire TP_CMD et son contenu avec l'option /s)
+
+
+Exercice 2
+
+(Sur Dos_Martires_TP2.bat)
+
+
+Exercice 3
+
+path => Affichee le chemin d'accés à la commande actuelle
+patch %PATH%;D:\TP_CMD => D:\TP_CMD apparait à la fin du chemin d'accés
+
+%TMP% => Affiche le chemin d'acces au repertoire temporaire
+
+D:\>path
+PATH=C:\Program Files\Parallels\Parallels Tools\Applications;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\vikito\AppData\Local\Microsoft\WindowsApps;;D:\TP_CMD
+
+
+Exercice 4
+
+D:\TP_CMD>path > path_sauv.txt
+
+
+
