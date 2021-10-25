@@ -1,0 +1,72 @@
+EXERCIXE 1
+============
+
+D:\>bonjour1.bat
+
+bonjour
+Appuyez sur une touche pour continuer...
+au revoir
+
+=============
+EXERCIUCE 2
+=============
+
+D:\>date /t
+25/10/2021
+
+L'option /T permet d'afficher que la date sans demander d'en entrer une nouvelle
+
+
+
+D:\>d.bat
+25/10/2021
+
+D:\>t.bat
+13:42
+
+D:\>dt.bat
+25/10/2021
+13:42
+
+
+=============
+EXERCICE 3
+=============
+
+
+D:\>bonjour2
+bonjour
+
+D:\>bonjour2 toto
+bonjour toto
+
+D:\>param1 XX1 YY2 ZZ3
+Param1=XX1
+Param2=YY2
+Param3=ZZ3
+
+
+D:\>param2
+entrer un parametre
+D:\>param2 victor
+le parametre est : victor
+
+
+============
+EXERCICE 4
+============
+
+(fichier : agentsecret.bat)
+
+D:\>agentsecret bond 007
+Bonjour Mister Bond !
+
+D:\>agentsecret bond 009
+le 2eme parametre est faux
+
+D:\>agentsecret bod 007
+le 1er parametre est faux
+
+
+
+
