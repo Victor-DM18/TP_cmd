@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<abritel>
+<description type="Maison">Basse terre: jolie maison créole. belle vue mer et grande piscine </description>
+<lieu>Guadeloupe/Basse-Terre/Pointe-Noire</lieu>
+<prix montant="60 euros" />
+<hôte type="hôte prenium">
+joelle herry
+</hôte>
+<espace taille="100m2">
+
+<chambre capacité ="3 personnes">
+
+<canapéLit nb="1" />
+<futon nb="2" />
+
+<lit nb="3">
+<lit1Place nb="1"/>
+<lit2Places nb="2" />
+</lit>
+
+</chambre>
+
+<salleDeBain nb="1">
+<wc nb="1" />
+<baignoire nb="1" />
+<douche nb="1" />
+</salleDeBain>
+
+<cuisine>
+<microOnde />
+<réfrigérateur />
+<cafetière />
+<four />
+<barbecue />
+<plaqueCuisson />
+<couvert />
+<vaiselle />
+</cuisine>
+
+<terrasse />
+<jardin />
+<salon />
+<buanderie />
+
+<salleÀManger>4 places assises</salleÀManger>
+
+<equipement>
+<parking />
+<television />
+<internet />
+<piscine />
+</equipement>
+
+
+</espace>
+</abritel>

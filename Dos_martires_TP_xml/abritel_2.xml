@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<abritel>
+<description type="bungalow">Location bungalow au Saut d'Acomat - Pointe-Noire
+Rentcar https://locasgp.com
+ </description>
+<lieu>Guadeloupe/Basse-Terre/Pointe-Noire</lieu>
+<prix montant="52 euros" />
+<hôte type="hôte prenium">
+Bungalow Guadeloupe
+</hôte>
+
+<espace>
+
+<chambre capacité ="2 personnes">
+
+<lit nb="2">
+<couchage nb="2" />
+<salleDeBain nb="1" />
+</lit>
+
+</chambre>
+
+<cuisine>
+<microOnde />
+<cafetière />
+<grillePain />
+<couverts />
+<vaiselle />
+</cuisine>
+
+<equipement>
+
+<parking />
+<internet />
+<climatisation />
+<serviettePlage />
+
+<buanderie>
+<planche />
+<ferÀRepasser />
+</buanderie>
+
+</equipement>
+
+
+</espace>
+</abritel>
