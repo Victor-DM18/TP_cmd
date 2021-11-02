@@ -1,0 +1,40 @@
+===========
+EXERCICE 1
+===========
+
+Modification du fichier build_cp.xml
+
+D:\>ant -f build_cp.xml archive
+Buildfile: D:\build_cp.xml
+
+archive:
+      [zip] Building zip: D:\r1.zip
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+================
+EXERCICE 2 et 3
+================
+
+
+Modification du fichier build_cp.xml
+
+D:\>ant -f build_cp.xml deploy
+Buildfile: D:\build_cp.xml
+
+archive:
+
+deploy:
+    [unzip] Expanding: D:\r1.zip into C:\Users\vikito\AppData\Local\Temp\backup
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+============
+EXERCICE 4
+============
+
+D:\>ren D:\build_cp.xml build_zip.xml

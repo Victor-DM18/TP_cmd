@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<project name="tp.archive" default="archive" basedir=".">
+	<property name="projet.nom" value="mon_projet"/>
+	<property name="projet.version" value="0.0.10"/>
+	<property name="dest" location="C:\Users\vikito\AppData\Local\Temp\backup"/>
+	<property name="arch" location="D:\TP_DOS\r1" />
+
+
+<target name="archive">
+	<zip destfile="r1.zip" basedir="${arch}" />
+</target>
+
+<target name="deploy" depends="archive">
+	<unzip src="r1.zip" dest="${dest}"/>
+</target>
+	
+</project> 
