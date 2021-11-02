@@ -1,0 +1,99 @@
+=====================
+EXEERCICE 1, 2 et 3
+=====================
+
+C:\Users\vikito>java -version
+java version "11.0.13" 2021-10-19 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.13+10-LTS-370)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.13+10-LTS-370, mixed mode)
+
+C:\Users\vikito>ant -version
+Apache Ant(TM) version 1.10.12 compiled on October 13 2021
+
+============
+EXERCICE 4
+============
+
+C:\Users\vikito>D:
+
+D:\>ant
+Buildfile: D:\build.xml
+
+main:
+     [echo] Bonjour monde !
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+D:\>ren D:\build.xml build_hello.xml
+
+D:\>ant -f build_hello.xml
+Buildfile: D:\build_hello.xml
+
+main:
+     [echo] Bonjour monde !
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+=========================
+EXERCICE 5, 6, 7, 8 et 9
+=========================
+
+
+D:\TP_ANT>ant
+Buildfile: D:\TP_ANT\build.xml
+
+cree:
+    [mkdir] Created dir: D:\TP_ANT\rep1
+     [echo] rep1 cree
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+D:\TP_ANT>tree
+Structure du dossier pour le volume Data
+Le numéro de série du volume est 00000242 9842:3E7F
+D:.
+└───rep1
+
+D:\TP_ANT>ant detruit
+Buildfile: D:\TP_ANT\build.xml
+
+detruit:
+   [delete] Deleting directory D:\TP_ANT\rep1
+     [echo] rep1 effacee
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+D:\TP_ANT>tree
+Structure du dossier pour le volume Data
+Le numéro de série du volume est 0000020A 9842:3E7F
+D:.
+Aucun sous-dossier existant
+
+
+D:\TP_ANT>ren D:\TP_ANT\build.xml build_test0.xml
+
+D:\TP_ANT>ant -f build_test0.xml cree
+Buildfile: D:\TP_ANT\build_test0.xml
+
+cree:
+    [mkdir] Created dir: D:\TP_ANT\rep1
+     [echo] rep1 cree
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+D:\TP_ANT>ant -f build_test0.xml detruit
+Buildfile: D:\TP_ANT\build_test0.xml
+
+detruit:
+   [delete] Deleting directory D:\TP_ANT\rep1
+     [echo] rep1 effacee
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

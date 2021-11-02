@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project name="creer.arbo" default="cree" basedir=".">
+	<property name="projet.nom" value="mon_projet"/>
+	<property name="projet.version" value="0.0.10"/>
+	<property name="dest" location="C:\Users\vikito\AppData\Local\Temp\r1"/>
+
+	<target name="cree">
+		<mkdir dir="${basedir}/r1"/>
+		<touch file="${basedir}/r1/tata"/>
+		<touch file="${basedir}/r1/ab12"/>
+		<touch file="${basedir}/r1/tutu"/>
+		<touch file="${basedir}/r1/titi"/>
+		<touch file="${basedir}/r1/toto"/>
+		<touch file="${basedir}/r1/trivial"/>
+		<touch file="${basedir}/r1/t632"/>
+		<touch file="${basedir}/r1/tbc2"/>
+		<touch file="${basedir}/r1/tnt"/>
+		<touch file="${basedir}/r1/t"/>
+	</target>
+	
+<target name="copy" depends="cree">
+	<copy todir="${dest}">
+		<fileset dir="${basedir}/r1"/>
+	</copy>
+</target>
+
+<target name="clean" >
+	<delete includeEmptyDirs="true" verbose="true">
+		<fileset dir="${dest}"/>
+	</delete>
+</target>
+
+<target name="copy2">
+	<copy todir="${dest}" verbose="true">
+		<fileset dir="${basedir}/r1" includes="??t*"/>
+	</copy>
+</target>
+
+	
+</project> 

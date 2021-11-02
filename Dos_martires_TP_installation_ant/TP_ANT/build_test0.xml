@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<project name="victorProjet" default="cree">
+
+<target name="cree">
+<mkdir dir="rep1"/>
+<echo message="rep1 cree"/>
+</target>
+
+<target name="detruit">
+<delete dir="rep1" />
+<echo message="rep1 effacee" />
+</target>
+
+</project>

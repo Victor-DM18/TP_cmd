@@ -1,0 +1,126 @@
+===================
+EXERCICE 1 et 2
+===================
+
+creation du fichier arbo.bat
+
+D:\>arbo
+Un sous-répertoire ou un fichier D:\TP_DOS\r1 existe déjà.
+"arbo cree"
+
+D:\>tree /f
+Structure du dossier pour le volume Data
+Le numéro de série du volume est 00000138 9842:3E7F
+D:.
+├───TP_DOS
+│   │   r1.zip
+│   │
+│   └───r1
+│           1632
+│           ab12
+│           t
+│           tata
+│           tbc2
+│           titi
+│           tnt
+│           toto
+│           trivial
+│           tutu
+
+
+================
+EXERCICE 3
+================
+
+
+
+creation du fichier buidl.xml
+
+D:\>ant
+Buildfile: D:\build.xml
+
+cree:
+    [mkdir] Created dir: D:\r1
+    [touch] Creating D:\r1\tata
+    [touch] Creating D:\r1\ab12
+    [touch] Creating D:\r1\tutu
+
+    [touch] Creating D:\r1\titi
+    [touch] Creating D:\r1\toto
+    [touch] Creating D:\r1\trivial
+    [touch] Creating D:\r1\t632
+    [touch] Creating D:\r1\tbc2
+    [touch] Creating D:\r1\tnt
+    [touch] Creating D:\r1\t
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+==============
+EXERCICE 4
+==============
+
+modification du fichiser build.xml
+
+D:\>ant copy
+Buildfile: D:\build.xml
+
+cree:
+
+copy:
+     [copy] Copying 10 files to C:\Users\vikito\AppData\Local\Temp\r1
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+
+===============
+EXERCICE 5
+===============
+
+
+modifaction du fichier build.xml
+
+D:\>ant clean
+Buildfile: D:\build.xml
+
+clean:
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\ab12
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\t
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\t632
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\tata
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\tbc2
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\titi
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\tnt
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\toto
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\trivial
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1\tutu
+   [delete] Deleting C:\Users\vikito\AppData\Local\Temp\r1
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+================
+EXERCICE 6
+================
+
+
+modifaction du fichier build.xml
+
+D:\>ant copy2
+Buildfile: D:\build.xml
+
+copy2:
+     [copy] Copying 5 files to C:\Users\vikito\AppData\Local\Temp\r1
+     [copy] Copying D:\r1\tata to C:\Users\vikito\AppData\Local\Temp\r1\tata
+     [copy] Copying D:\r1\titi to C:\Users\vikito\AppData\Local\Temp\r1\titi
+     [copy] Copying D:\r1\tnt to C:\Users\vikito\AppData\Local\Temp\r1\tnt
+     [copy] Copying D:\r1\toto to C:\Users\vikito\AppData\Local\Temp\r1\toto
+     [copy] Copying D:\r1\tutu to C:\Users\vikito\AppData\Local\Temp\r1\tutu
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
